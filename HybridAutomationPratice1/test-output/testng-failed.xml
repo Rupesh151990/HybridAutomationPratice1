@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [FREE CRM Application Test Automation Test Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="com.qa.extentreport.ExtentReportListener"/>
+  </listeners>
+  <test name="Free CRM App Test Cases(failed)">
+    <classes>
+      <class name="com.qa.testcase.DashBoard_TestCase">
+        <methods>
+          <include name="setup"/>
+          <include name="tearDown"/>
+          <include name="dashboardPageTest"/>
+        </methods>
+      </class> <!-- com.qa.testcase.DashBoard_TestCase -->
+    </classes>
+  </test> <!-- Free CRM App Test Cases(failed) -->
+</suite> <!-- Failed suite [FREE CRM Application Test Automation Test Suite] -->
